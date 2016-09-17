@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+.map {
+  position: relative;
+  overflow: hidden;
+}
+
+.map .layer {
+  position: absolute;
+}
+
+.map .layer .tile {
+  pointer-events: none;
+  position: absolute;
+  width: 256px;
+  height: 256px;
+}
+
+#field-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
